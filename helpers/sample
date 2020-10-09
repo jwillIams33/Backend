@@ -1,0 +1,16 @@
+// let database: Database;
+
+// export function connect() {
+//   const client = new MongoClient();
+//   client.connectWithUri(
+//     'mongodb+srv://jamal:LFz89Pq95JltufQW@cluster0.ixpzm.mongodb.net/?retryWrites=true&w=majority'
+//   );
+
+//   database = client.database('TodoList');
+// }
+
+// function getDb() {
+//   return database;
+// }
+
+// export default getDb;

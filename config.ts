@@ -1,5 +1,5 @@
 const database = {
-  user: "d3cartel",
+  user: "Jamal",
   database: "deno_database",
   password: "d3cartel..",
   hostname: "localhost",

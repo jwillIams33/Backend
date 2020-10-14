@@ -1,18 +1,18 @@
 import { Router } from "https://deno.land/x/oak@v6.3.1/mod.ts";
 import {
-  getProducts,
-  getSingleProduct,
-  addProduct,
-  updateProduct,
-  deleteProduct,
-} from "./controllers/products.ts";
+  getTodos,
+  getSingleTodo,
+  addTodo,
+  updateTodo,
+  deleteTodo,
+} from "./controllers/tasks.ts";
 
 const router = new Router();
 
-router.get("/API/products", getProducts)
-  .get("/API/products/:id", getSingleProduct)
-  .post("/API/products", addProduct)
-  .put("/API/products/:id", updateProduct)
-  .delete("/API/products/:id", deleteProduct);
+router.get("/API/tasks", getTodos)
+  .get("/API/tasks/:id", getSingleTodo)
+  .post("/API/tasks", addTodo)
+  .put("/API/tasks/:id", updateTodo)
+  .delete("/API/tasks/:id", deleteTodo);
 
 export default router;

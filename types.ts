@@ -1,6 +1,6 @@
-interface Product {
+interface Todo {
   id: string;
-  name: string;
-  description: string;
-  price: number;
+  text: string;
+  checked: boolean;
+  points: number;
 }

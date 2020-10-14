@@ -2,5 +2,4 @@ interface Todo {
   id: string;
   text: string;
   checked: boolean;
-  points: number;
 }

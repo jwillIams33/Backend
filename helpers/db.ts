@@ -9,7 +9,7 @@ export function connect() {
   
   // update db_config file with your credentials
   client.connectWithUri(
-    'mongodb+srv://jamal:LFz89Pq95JltufQW@cluster0.ixpzm.mongodb.net/?retryWrites=true&w=majority'
+    `mongodb+srv://${CREDENTIALS.userName}:${CREDENTIALS.password}@cluster0.ixpzm.mongodb.net/?retryWrites=true&w=majority`
   );
 
   const db = client.database('Task-List');
